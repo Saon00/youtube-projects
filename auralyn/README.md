@@ -8,13 +8,13 @@
 
 These are lightweight demo images located in `assets/demo/` (kept small and minimal).
 
-<p align="center">
-  <img src="assets/demo/home.jpeg" alt="Home" style="max-width:360px;max-height:720px;border-radius:12px;margin:6px;" />
-  <img src="assets/demo/song.jpeg" alt="Song" style="max-width:360px;max-height:720px;border-radius:12px;margin:6px;" />
-  <img src="assets/demo/splash.jpeg" alt="Splash" style="max-width:360px;max-height:720px;border-radius:12px;margin:6px;" />
-</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; gap: 15px;">
+  <img src="assets/demo/home.jpeg" alt="Home Screen" style="width: 320px; height: 680px; border: 1px solid #ddd; border-radius: 5px; margin: 6px; object-fit: cover;" />
+  <img src="assets/demo/song.jpeg" alt="Song Screen" style="width: 320px; height: 680px; border: 1px solid #ddd; border-radius: 5px; margin: 6px; object-fit: cover;" />
+  <img src="assets/demo/splash.jpeg" alt="Splash Screen" style="width: 320px; height: 680px; border: 1px solid #ddd; border-radius: 5px; margin: 6px; object-fit: cover;" />
+</div>
 
-> Note: Images are constrained with `max-width:360px` and `max-height:720px` so they remain minimal and don't dominate the README.
+> Note: Images are constrained to **width: 320px** and **height: 680px** (using `object-fit: cover`) so they remain minimal and consistent across devices.
 
 ---
 
